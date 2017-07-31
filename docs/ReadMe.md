@@ -36,7 +36,7 @@ The app will consist of a single screen with instructions, game board, and score
 
 - Day 3: Set up the bricks and the logic for their destruction. Be able to start, pause, and announce when the player wins.
 
-- Day 4: Create controls and style the frontend to be polished and professional.
+- Day 4: Create control and rule instructions. Style the frontend to be polished and professional.
 
 ## Bonus Features
 There are many different variations of this game that use different powerups.
