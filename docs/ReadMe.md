@@ -8,6 +8,7 @@ Last Stand is a take on the classic 1986 arcade game Arkanoid. In the game, a la
 - Move the ship using the keyboard or mouse
 - Bricks populate and are destroyed when hit, sturdier bricks can take more hits.
 - Ball is deflected when it makes contact with the walls, ship, and bricks.
+- Different difficulty levels.
 - Production README
 - BONUS: Arkanoid PowerUps- Special bricks release multiple balls, increase the width of the ship, or effect the speed of the ball.
 
@@ -23,20 +24,20 @@ The app will consist of a single screen with instructions, game board, and score
 - `Easel.js` with `HTML5 Canvas` for DOM Manipulation and rendering.
 
 ### Architecture
-- board.js: The creation of the game board and it's bricks.
-- ball.js: The ball bouncing physics as well as the logic for it's movement.
-- ship.js: The creation and movement of the paddle.
-- game.js: Overall game logic and setup.
+- bricks.js: This will contain the creation of the game board and it's bricks. It will be responsible for the
+- ball.js: This will contain the ball bouncing physics as well as the logic for it's movement.
+- ship.js: This will contain the creation and movement of the paddle. It was also dictate how objects react when they interact with the paddle.
+- main.js: This will contain the overall game logic and setup. It will also contain the logic for increased difficulty.
 
 ## Implementation
 
-- Day 1: Set up the initial Node modules, webpack configuration, skeleton setup for JavaScript files, review and learn Canvas and Easel.
+- Day 1: Set up the initial Node modules, webpack configuration, skeleton setup for JavaScript files, review and learn Canvas and Easel. Learn enough Canvas to render objects on to the Canvas element. Create the background using the canvas element.  
 
-- Day 2: Continue learning Easel and Canvas. Create the board, ball, and paddle for the game. Implement the logic for ball physics, paddle movement and reflection.
+- Day 2: Continue learning Easel and Canvas. Create the board, ball, and paddle for the game. Implement the logic for ball physics, ball movement, paddle movement and reflection. Be able to move the ball using at least the mouse.
 
-- Day 3: Set up the bricks and the logic for their destruction. Be able to start, pause, and announce when the player wins.
+- Day 3: Set up the bricks and the logic for their destruction. Be able to start, pause, and announce when the player wins. Be able to at least destroy a brick with a single life.
 
-- Day 4: Create control and rule instructions. Style the frontend to be polished and professional.
+- Day 4: Be able to create bricks with more than 1 life. Create control and rule instructions. Style the frontend to be polished and professional. Add difficulty settings.
 
 ## Bonus Features
 There are many different variations of this game that use different powerups.
