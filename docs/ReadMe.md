@@ -24,7 +24,7 @@ The app will consist of a single screen with instructions, game board, and score
 - `Easel.js` with `HTML5 Canvas` for DOM Manipulation and rendering.
 
 ### Architecture
-- bricks.js: This will contain the creation of the game board and it's bricks. It will be responsible for the
+- bricks.js: This will contain the creation of the game board and it's bricks. It will be responsible for the destruction and lives for the bricks.
 - ball.js: This will contain the ball bouncing physics as well as the logic for it's movement.
 - ship.js: This will contain the creation and movement of the paddle. It was also dictate how objects react when they interact with the paddle.
 - main.js: This will contain the overall game logic and setup. It will also contain the logic for increased difficulty.
