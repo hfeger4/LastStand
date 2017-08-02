@@ -2,5 +2,11 @@ canvas {
   background: url(https://images.template.net/wp-content/uploads/2015/08/Extraordinary-Free-Space-Background-for-You.png);
   display: block;
   margin: 0 auto;
-  border: 2px solid black;
+  border: 0px solid black;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
