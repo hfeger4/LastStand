@@ -34,6 +34,12 @@ body {
   text-decoration: underline;
 }
 
+.colors{
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+}
+
 .directions{
   width: 200;
   height: 400;
