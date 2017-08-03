@@ -1,12 +1,64 @@
 canvas {
   background: url(https://images.template.net/wp-content/uploads/2015/08/Extraordinary-Free-Space-Background-for-You.png);
+  /*background-image: image();*/
+  background-size: cover;
   display: block;
   margin: 0 auto;
-  border: 0px solid black;
+  border: 1px solid black;
+  /*position: absolute;
+  top: 0px;
+  left: 0px;
+  background: transparent;*/
+}
+
+html {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
 }
 
 body {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
+}
+
+.directions{
+  width: 200;
+  height: 400;
+  border: 2px solid black;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 500;
+  font-size: 20px;
+}
+
+.pieces{
+
+}
+
+.control-header{
+  font-family: fantasy;
+}
+
+.game-directions{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.game{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mouse{
+  width: 40px;
+  max-width: 40px;
+
 }
