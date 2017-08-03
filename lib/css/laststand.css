@@ -1,20 +1,16 @@
 canvas {
-  background: url(https://images.template.net/wp-content/uploads/2015/08/Extraordinary-Free-Space-Background-for-You.png);
-  /*background-image: image();*/
+  background-image: url("./space.png");
   background-size: cover;
   display: block;
   margin: 0 auto;
   border: 1px solid black;
-  /*position: absolute;
-  top: 0px;
-  left: 0px;
-  background: transparent;*/
 }
 
 html {
   display: flex;
   justify-content: center;
   flex-direction: row;
+  background-color: #D3D3D3;
 }
 
 body {
@@ -22,6 +18,20 @@ body {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+}
+
+.h1mine{
+  font-family: 'Montserrat', sans-serif;
+}
+.paragraph{
+  margin: 10px;
+}
+
+.paragraph-header{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  margin: 10px;
+  text-decoration: underline;
 }
 
 .directions{
@@ -37,11 +47,12 @@ body {
 }
 
 .pieces{
-
+  margin: 10px;
 }
 
 .control-header{
-  font-family: fantasy;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: underline;
 }
 
 .game-directions{
@@ -61,4 +72,26 @@ body {
   width: 40px;
   max-width: 40px;
 
+}
+
+.foo {
+  width: 80px;
+  height: 20px;
+  margin: 5px;
+  border: 1px solid rgba(0, 0, 0, .2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blue {
+  background: #157DE0;
+}
+
+.purple {
+  background: #7A07BB;
+}
+
+.wine {
+  background: #BB0D07;
 }
