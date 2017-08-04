@@ -12,7 +12,7 @@ Last Stand is a take on the classic 1986 arcade game Arkanoid. In the game, a la
 
 ### Technology
 
-Last Stand was written in pure `Javascript`, styled with `CSS`, and drawn on an `HTML Canvas`.
+Last Stand was written in vanilla `Javascript`, styled with `CSS`, and drawn on an `HTML Canvas`.
 
 ### Visuals
 
