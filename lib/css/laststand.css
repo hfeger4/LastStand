@@ -3,7 +3,7 @@ canvas {
   background-size: cover;
   display: block;
   margin: 0 auto;
-  border: 1px solid black;
+  border: 2px solid white;
 }
 
 html {
@@ -11,6 +11,8 @@ html {
   justify-content: center;
   flex-direction: row;
   background-color: #D3D3D3;
+  background-color: black;
+  color: white;
 }
 
 body {
@@ -43,7 +45,7 @@ body {
 .directions{
   width: 200;
   height: 250;
-  border: 2px solid black;
+  border: 2px solid white;
   margin-top: 81px;
   display: flex;
   flex-direction: column;
