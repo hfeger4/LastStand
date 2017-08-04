@@ -6,6 +6,8 @@
 
 Last Stand is a take on the classic 1986 arcade game Arkanoid. In the game, a layer of bricks lines the top half of the screen. A ball of energy travels across the screen, bouncing off the top and walls but destroying any bricks it comes into contact with. The player loses a turn when the ball touches the bottom of the screen, which can be prevented by using the ship to shield it. The level is won when there are no bricks remaining.
 
+![alt text](./docs/game.png)
+
 ## Technology
 
 Last Stand was written in pure Javascript, styled with CSS, and drawn on an HTML Canvas.
