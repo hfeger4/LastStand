@@ -13,3 +13,7 @@ Last Stand was written in pure Javascript, styled with CSS, and drawn on an HTML
 ## Implementation
 
 The visuals for the arcade portion of the game are all rendered on an HTML Canvas. Initially, there was a problem with stutter and frame skips as the ball moved across the screen. Utilizing `requestAnimationFrame` instead of `setInterval`, I was able to produce higher quality animation that completed eliminated the flicker and shear that can happen when using `setInterval`.
+
+## New Features
+
+New features planned for the future include many of the power-ups that the original Arkanoid contained. This includes multiple ball power-ups, increased paddle length power-ups, and the ability to fire a lazer from the ship.
