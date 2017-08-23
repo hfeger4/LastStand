@@ -1,17 +1,21 @@
 canvas {
+  /*background-image: url("./building.jpeg");*/
   background-image: url("./space.png");
   background-size: cover;
   display: block;
   margin: 0 auto;
   border: 2px solid white;
+  color: black;
 }
 
 html {
   display: flex;
   justify-content: center;
   flex-direction: row;
-  background-color: #D3D3D3;
-  background-color: black;
+  /*background-color: #D3D3D3;
+  background-color: black;*/
+  /*background-image: url("./spacier.jpeg");*/
+  background-size: cover;
   color: white;
 }
 
@@ -20,6 +24,8 @@ body {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  background-image: url("./pink.jpeg");
+
 }
 
 .h1mine{
@@ -52,6 +58,7 @@ body {
   align-items: center;
   min-width: 500;
   font-size: 20px;
+  background-color: black;
 }
 
 .pieces{
