@@ -1,7 +1,7 @@
 canvas {
-  /*background-image: url("./building.jpeg");*/
-  background-image: url("./space.png");
-  background-size: cover;
+  /*background-image: url("./space.png");*/
+  background-image: url("./black.jpg");
+  background-size: contain;
   display: block;
   margin: 0 auto;
   border: 2px solid white;
@@ -24,7 +24,8 @@ body {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background-image: url("./pink.jpeg");
+  background-image: url("./purple.jpeg");
+  background-size: contain;
 
 }
 
