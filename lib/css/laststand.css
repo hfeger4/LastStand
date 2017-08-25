@@ -25,7 +25,7 @@ body {
   flex-direction: column;
   align-items: center;
   background-image: url("./purple.jpeg");
-  background-size: contain;
+  background-size: stretch;
 
 }
 
