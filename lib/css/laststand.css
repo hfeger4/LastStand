@@ -12,11 +12,13 @@ html {
   display: flex;
   justify-content: center;
   flex-direction: row;
+  align-items: center;
   /*background-color: #D3D3D3;
   background-color: black;*/
   /*background-image: url("./spacier.jpeg");*/
   background-size: cover;
   color: white;
+  height: 100%;
 }
 
 body {
@@ -29,8 +31,21 @@ body {
 
 }
 
+.game-directions-2{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
 .h1mine{
   font-family: 'Montserrat', sans-serif;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .paragraph{
   margin: 10px;
@@ -51,9 +66,9 @@ body {
 
 .directions{
   width: 200;
-  height: 250;
+  height: 500px;
   border: 2px solid white;
-  margin-top: 81px;
+  /*margin-top: 81px;*/
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -74,7 +89,7 @@ body {
 .game-directions{
   display: flex;
   justify-content: center;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .game{
