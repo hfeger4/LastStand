@@ -16,7 +16,7 @@ Last Stand was written in vanilla `Javascript`, styled with `CSS`, and drawn on 
 
 ### Visuals
 
-The visuals for the arcade portion of the game are all rendered on an HTML Canvas. Initially, there was a problem with stutter and frame skips as the ball moved across the screen. Utilizing `requestAnimationFrame` instead of `setInterval`, I was able to produce higher quality animation that completed eliminated the flicker and shear that can happen when using `setInterval`.
+The visuals for the arcade portion of the game are all rendered on an HTML Canvas. Initially, there was a problem with stutter and frame skips as the ball moved across the screen. Utilizing `requestAnimationFrame` instead of `setInterval`, I was able to produce higher quality animation that completed eliminated the flicker and shear that can happen when using `setInterval`. Adjusting to constant screen refreshes was also initially difficult. Anything rendered on the canvas had to be rendered constantly until otherwise stated, which changed how all the IF and ELSE statements had to be written in the game. 
 
 ### Collision
 
